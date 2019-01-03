@@ -1,0 +1,20 @@
+<!-- generators.html -->
+
+<button class="btn">Click to run the generator!</button>
+
+<script type="text/javascript">
+	function* counter(){
+		let i = 0;
+		while(true){
+			console.log("I'm before the yield");
+			const dataFromNext = yield i++;
+			console.log(dataFromNext, i);
+		}
+	}
+
+	const gen = counter();
+	document.querySelector('.btn').addEventListener('click',()=>{
+		console.log(gen.next('THis is some data'));
+	})
+
+</script>

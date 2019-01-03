@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style>
+		img{
+			max-width: 100%;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div class="col-sm-12 text-center">
+		<input type="text" id="coin" />
+		
+		<input type="radio" name="interest" value="own" id="own">
+		<label for="own">Own</label>
+		
+		<input type="radio" name="interest" value="want" id="want">
+		<label for="want">Want</label>
+
+		<input type="radio" name="interest" value="dont" id="dont">
+		<label for="dont">Don't want to own</label>
+
+		<button class="btn btn-primary" id="add-button">Add</button>
+	</div>
+	<div id="own-content" class="col-sm-4">
+		<h1>Got it.</h1>
+	</div>
+	<div id="want-content" class="col-sm-4">
+		<h1>Give me!!</h1>
+	</div>
+	<div id="dont-content" class="col-sm-4">
+		<h1>No Thanks</h1>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+	<script src="taggedOption2.js"></script>
+
+</body>
+</html>
