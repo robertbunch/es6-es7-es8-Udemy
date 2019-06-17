@@ -1,1 +1,1 @@
-# Exercises for ES6 Udemy course. Organized by folders. Solutions are in the coures. [Find the course here](https://www.udemy.com/deploying-web-apps-simplified-quick-or-in-depth-on-aws) 
+# Exercises for ES6 Udemy course. Organized by folders. Solutions are in the coures. [Find the course here](https://www.udemy.com/es6-es7-and-es8-its-time-to-update-your-javascript/?couponCode=LINKEDIN) 
