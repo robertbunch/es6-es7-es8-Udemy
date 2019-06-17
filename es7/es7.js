@@ -8,7 +8,6 @@
 
 
 // Operator: var1 ** var2
-
 // superceeds 
 
 const x = 5 ** 2
