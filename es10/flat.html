@@ -1,0 +1,33 @@
+<script>
+
+    const people = [
+        "Jim",
+        "Akash",
+        "Julio",
+        [
+            "Wilma",
+            "Max",
+            "Chen",
+            [
+                "Joe",
+                "Harry"
+            ]
+        ],
+        "Vlad",
+    ]
+
+console.log(people)
+//the default depth is 1
+//providing it will take the flat down that many levels
+const flatArray = people.flat(2)
+console.log(people)
+console.log(flatArray)
+
+const sparseArray = [1,2,undefined,[[,,,,2,3,4,,,]]]
+sparseArray[10] = true
+
+console.log(sparseArray)
+const flatSparse = sparseArray.flat()
+console.log(flatSparse)
+
+</script>
