@@ -1,0 +1,24 @@
+<script>
+
+//with returns a new array with a single change at an index
+
+const atlSportsTeams = [
+    "Braves",
+    "Hawks",
+    "Thrashers",
+    "Falcons"
+]
+
+atlSportsTeams[10] = "Awesome new team"
+
+// newAtlSportsTeams = atlSportsTeams.slice()
+// const newAtlSportsTeams = [...atlSportsTeams]
+// newAtlSportsTeams[2] = "ATL United"
+// atlSportsTeams[2] = "ATL United"
+const newAtlSportsTeams = atlSportsTeams.with(2,"ATL United")
+//syntax is similar to splice, but without the delete
+// atlSportsTeams.splice(2,1,"ATL United")
+console.log(atlSportsTeams)
+console.log(newAtlSportsTeams)
+
+</script>

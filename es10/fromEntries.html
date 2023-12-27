@@ -1,0 +1,29 @@
+<script>
+    // useful for converting a .entries() back into an object
+    // useful for converting data from another source
+    const arr1 = [
+        ["name","Bill"],
+        ["age",30],
+        ["job","Architect"],
+        ["city","London"]
+    ]
+    const newObj = Object.fromEntries(arr1)
+    console.log(newObj)
+
+    const obj = {
+        "name" : "Bill",
+        "age" : 30,
+        "job" : "Architect",
+        "city" : "London",
+    }
+
+    console.log(Object.entries(obj))
+
+    const aString = "aString"
+    for(const letter of aString){
+        console.log(letter)
+    }
+
+    console.log(Object.fromEntries(aString))
+
+</script>
