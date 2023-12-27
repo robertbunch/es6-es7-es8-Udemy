@@ -1,0 +1,40 @@
+<script>
+const countries = [
+    {
+        name: "Shanghai",
+        country: "China",
+        popInMil: 26.3
+    },
+    {
+        name: "New York City",
+        country: "USA",
+        popInMil: 8.5
+    },
+    {
+        name: "London",
+        country: "United Kingdom",
+        popInMil: 9
+    },
+    {
+        name: "Rio de Janeiro",
+        country: "Brazil",
+        popInMil: 6.7
+    },
+    {
+        name: "Delhi",
+        country: "India",
+        popInMil: 16.8
+    }    
+]
+
+countries[15] = {
+    name: "Sydney",
+    country: "Australia",
+    popInMil: 5.3,
+}
+countries.sort((a,b)=>a.popInMil - b.popInMil)
+const sortedCountries = countries.toSorted((a,b)=>a.popInMil - b.popInMil)
+console.log(countries)
+console.log(sortedCountries)
+
+</script>
